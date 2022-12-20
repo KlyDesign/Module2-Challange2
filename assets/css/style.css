@@ -1,0 +1,45 @@
+
+:root{
+    /* favorite scheme */
+    --green: #417b5aff;
+    --yellow: #fff584ff;
+    --blue: #4e72b6ff;
+    --red: #d8373aff;
+    --background: #e4dcdcff;
+}
+*{
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: var(--green);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    background-color: var(--blue);
+    color: var(--yellow);
+}
+.logo{
+    font-weight: bold;
+    color: --yellow;  
+    letter-spacing: .15em;
+}
+.navBar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: right;
+}
+.navBar a {
+    color: var(--yellow);
+    display: block;
+    margin: 0 1em;
+    text-decoration: none;
+    font-size: large;
+}
