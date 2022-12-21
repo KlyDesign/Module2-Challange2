@@ -21,3 +21,6 @@ I picked a color pallet design the page made a header and footer
 then added in hrefs
 then organized the main and section tags on the html 
 then I refined the layout of the flexbox layout for the img and div
+
+Live Page:
+https://klydesign.github.io/Module2-Challange2/
