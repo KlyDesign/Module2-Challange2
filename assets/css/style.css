@@ -49,11 +49,7 @@ nav{
     padding: 1.5rem 2rem;
 }
 
-main{
-    display: flex;
-    flex-direction: column;
-}
-main H2 {
+main h2 {
     color: var(--background);
     margin-left: 5%;
 
@@ -64,10 +60,32 @@ main p{
     font-weight: lighter;
 }
 main div{
-    flex-direction: row;
-    margin-left: 15%
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    padding: 1%;
 }
+
+#mainpic img{
+    width: 90%;
+    height: 700px; 
+    border: 5px solid var(--yellow);
+}
+#otherpic img{
+    width: 30%;
+    height: 150%;
+    border: 5px solid var(--yellow);
+    
+}
+h3 {
+    position: absolute;
+    padding-left: 2%;
+
+}
+
 footer {
+    border-top: 5px solid var(--yellow);
+    align-items: flex-end;
     padding: 1.5rem;
     text-align: center;
     background-color: var(--red);
