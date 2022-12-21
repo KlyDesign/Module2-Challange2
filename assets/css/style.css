@@ -70,6 +70,7 @@ main div{
     margin-top: 10px;
     font-weight: bold;
     font-size: 200%;
+    text-decoration: none;
     background-color: var(--yellow);
     color:var(--blue);
 }
